@@ -52,7 +52,7 @@ def get_parser():
                                                       "mean", "min" , "max"],
                                                                 default='sum')
     parser.add_argument('--model',  type=str,
-                        choices=['gcn','gat','sage','gin'], default='gcn')
+                        choices=['gcn','gat','sage','gin', 'flat_bundle'], default='gcn')
     parser.add_argument('--mpnn_layers', type=int, default=2)
     # Experiment parameters
     parser.add_argument('--dataset', type=str,  choices=['TREE','LOLLIPOP','RING'], default='RING')

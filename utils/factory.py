@@ -1,13 +1,15 @@
+import torch
+
 from torch_geometric.nn.models import GIN, GCN, GraphSAGE, GAT
 
 from data.ring_transfer import generate_tree_transfer_graph_dataset
 from data.ring_transfer import generate_ring_transfer_graph_dataset
 from data.ring_transfer import generate_lollipop_transfer_graph_dataset
 
-
+from sheaf_model import SheafDiffusion
 
 def build_model(args):
-	assert args.model in ['gin', 'gcn', 'gat', 'sage'], ValueError(f'Unknown model {args.model}')
+	assert args.model in ['gin', 'gcn', 'gat', 'sage', 'flat_bundle'], ValueError(f'Unknown model {args.model}')
 	assert args.input_dim != None, ValueError(f'Invalid input dim')
 	assert args.hidden_dim != None, ValueError(f'Invalid hidden dim')
 	assert args.output_dim != None, ValueError(f'Invalid output dim')
@@ -19,6 +21,7 @@ def build_model(args):
 	        'gcn' : GCN,
 	        'gat' : GAT,
 	        'sage' : GraphSAGE,
+          'flat_bundle' : SheafDiffusion
 	     }
 	     
 	params = {
