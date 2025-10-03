@@ -68,7 +68,7 @@ def generate_ring_lookup_graph(nodes:int):
     edge_index.append([nodes - 1, 0])
 
     # Convert to tensor and transpose for Torch Geometric compatibility
-    edge_index = np.array(edge_index, dtype=np.compat.long).T
+    edge_index = np.array(edge_index, dtype=np.long).T
     edge_index = torch.tensor(edge_index, dtype=torch.long)
 
     # Create a mask to highlight the source node (used later for graph-level predictions)
@@ -150,7 +150,7 @@ def generate_ring_transfer_graph(nodes, target_label, add_crosses: bool):
     edge_index.append([nodes - 1, 0])
 
     # Convert edge list to a torch tensor
-    edge_index = np.array(edge_index, dtype=np.compat.long).T
+    edge_index = np.array(edge_index, dtype=np.long).T
     edge_index = torch.tensor(edge_index, dtype=torch.long)
 
     # Create a mask to identify the target node in the graph. Only the source node (index 0) is marked true.
@@ -235,7 +235,7 @@ def generate_tree_transfer_graph(depth:int, target_label:List[int], arity:int):
         last_child_counter += arity
 
     # Convert edge index to torch tensor format
-    edge_index = np.array(edge_index, dtype=np.compat.long).T
+    edge_index = np.array(edge_index, dtype=np.long).T
     edge_index = torch.tensor(edge_index, dtype=torch.long)
 
     # Create a mask for the root node of the graph
@@ -309,7 +309,7 @@ def generate_lollipop_transfer_graph(nodes:int, target_label:List[int]):
     edge_index.append([nodes // 2, nodes // 2 - 1])
 
     # Convert the edge index list to a torch tensor
-    edge_index = np.array(edge_index, dtype=np.compat.long).T
+    edge_index = np.array(edge_index, dtype=np.long).T
     edge_index = torch.tensor(edge_index, dtype=torch.long)
 
     # Create a mask to indicate the target node (in this case, the first node)
