@@ -182,7 +182,7 @@ if __name__ == '__main__':
     set_seed(args.seed)
 
     results = []
-    wandb.init(project="on-oversquashing", config=vars(args), entity=args.entity)
+    wandb.init(project="on-oversquashing", config=vars(args))
     print(args)
 
     test_acc, test_loss, keep_running = run_exp(
