@@ -1,0 +1,28 @@
+Namespace(epochs=100, lr=0.001, weight_decay=0.0005, early_stopping=100, stop_strategy='acc', min_acc=0.5, input_dim=5, hidden_dim=64, output_dim=5, norm='BatchNorm', input_dropout=0.0, dropout=0.0, use_act=True, activ='elu', reduce='sum', model='gin', mpnn_layers=8, dataset='RING', seed=1, bs=128, cuda=0, entity='none', add_crosses=False, synth_train_size=5000, synth_test_size=500, synthetic_size=16, generate_tree=False, arity=2, num_class=5, device=device(type='cuda', index=0), sha='341943910046ece1606631d66411a24a51800705', hidden_channels=64, num_layers=8)
+Epochs: 0 | Best epoch: 0
+Test acc: 0.2060
+Best test acc: 0.2060
+Epochs: 1 | Best epoch: 1
+Test acc: 0.2100
+Best test acc: 0.2100
+Epochs: 2 | Best epoch: 2
+Test acc: 0.4160
+Best test acc: 0.4160
+Epochs: 3 | Best epoch: 2
+Test acc: 0.2100
+Best test acc: 0.4160
+Epochs: 4 | Best epoch: 2
+Test acc: 0.2100
+Best test acc: 0.4160
+Epochs: 5 | Best epoch: 5
+Test acc: 0.6200
+Best test acc: 0.6200
+Epochs: 6 | Best epoch: 6
+Test acc: 0.8500
+Best test acc: 0.8500
+Epochs: 7 | Best epoch: 6
+Test acc: 0.3600
+Best test acc: 0.8500
+Perfect accuracy, stopping to save resources.
+gin on RING | SHA: 341943910046ece1606631d66411a24a51800705
+Test acc: 100.0000 +/- 0.0000 | Test loss: 100.0000

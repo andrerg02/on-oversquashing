@@ -1,0 +1,175 @@
+Namespace(epochs=100, lr=0.001, weight_decay=0.0005, early_stopping=100, stop_strategy='acc', min_acc=0.5, input_dim=5, hidden_dim=64, output_dim=5, norm='BatchNorm', input_dropout=0.0, dropout=0.0, use_act=True, activ='elu', reduce='sum', model='flat_bundle', mpnn_layers=11, dataset='RING', seed=2, bs=128, cuda=0, entity='none', add_crosses=False, synth_train_size=5000, synth_test_size=500, synthetic_size=22, generate_tree=False, arity=2, num_class=5, device=device(type='cuda', index=0), sha='341943910046ece1606631d66411a24a51800705', hidden_channels=64, num_layers=11)
+Epochs: 0 | Best epoch: 0
+Test acc: 0.2240
+Best test acc: 0.2240
+Epochs: 1 | Best epoch: 0
+Test acc: 0.2240
+Best test acc: 0.2240
+Epochs: 2 | Best epoch: 0
+Test acc: 0.1840
+Best test acc: 0.2240
+Epochs: 3 | Best epoch: 0
+Test acc: 0.2240
+Best test acc: 0.2240
+Epochs: 4 | Best epoch: 0
+Test acc: 0.1840
+Best test acc: 0.2240
+Epochs: 5 | Best epoch: 0
+Test acc: 0.2240
+Best test acc: 0.2240
+Epochs: 6 | Best epoch: 0
+Test acc: 0.2240
+Best test acc: 0.2240
+Epochs: 7 | Best epoch: 0
+Test acc: 0.2240
+Best test acc: 0.2240
+Epochs: 8 | Best epoch: 0
+Test acc: 0.2240
+Best test acc: 0.2240
+Epochs: 9 | Best epoch: 0
+Test acc: 0.2240
+Best test acc: 0.2240
+Epochs: 10 | Best epoch: 0
+Test acc: 0.1840
+Best test acc: 0.2240
+Epochs: 11 | Best epoch: 0
+Test acc: 0.2120
+Best test acc: 0.2240
+Epochs: 12 | Best epoch: 0
+Test acc: 0.1700
+Best test acc: 0.2240
+Epochs: 13 | Best epoch: 0
+Test acc: 0.2120
+Best test acc: 0.2240
+Epochs: 14 | Best epoch: 0
+Test acc: 0.1840
+Best test acc: 0.2240
+Epochs: 15 | Best epoch: 0
+Test acc: 0.2100
+Best test acc: 0.2240
+Epochs: 16 | Best epoch: 0
+Test acc: 0.2240
+Best test acc: 0.2240
+Epochs: 17 | Best epoch: 0
+Test acc: 0.2100
+Best test acc: 0.2240
+Epochs: 18 | Best epoch: 18
+Test acc: 0.3540
+Best test acc: 0.3540
+Epochs: 19 | Best epoch: 18
+Test acc: 0.1700
+Best test acc: 0.3540
+Epochs: 20 | Best epoch: 18
+Test acc: 0.1700
+Best test acc: 0.3540
+Epochs: 21 | Best epoch: 21
+Test acc: 0.3800
+Best test acc: 0.3800
+Epochs: 22 | Best epoch: 21
+Test acc: 0.2100
+Best test acc: 0.3800
+Epochs: 23 | Best epoch: 21
+Test acc: 0.2100
+Best test acc: 0.3800
+Epochs: 24 | Best epoch: 21
+Test acc: 0.2100
+Best test acc: 0.3800
+Epochs: 25 | Best epoch: 21
+Test acc: 0.2240
+Best test acc: 0.3800
+Epochs: 26 | Best epoch: 21
+Test acc: 0.1840
+Best test acc: 0.3800
+Epochs: 27 | Best epoch: 21
+Test acc: 0.2240
+Best test acc: 0.3800
+Epochs: 28 | Best epoch: 21
+Test acc: 0.2100
+Best test acc: 0.3800
+Epochs: 29 | Best epoch: 29
+Test acc: 0.4360
+Best test acc: 0.4360
+Epochs: 30 | Best epoch: 29
+Test acc: 0.1700
+Best test acc: 0.4360
+Epochs: 31 | Best epoch: 29
+Test acc: 0.2240
+Best test acc: 0.4360
+Epochs: 32 | Best epoch: 29
+Test acc: 0.1700
+Best test acc: 0.4360
+Epochs: 33 | Best epoch: 33
+Test acc: 0.7760
+Best test acc: 0.7760
+Epochs: 34 | Best epoch: 33
+Test acc: 0.7760
+Best test acc: 0.7760
+Epochs: 35 | Best epoch: 33
+Test acc: 0.6460
+Best test acc: 0.7760
+Epochs: 36 | Best epoch: 36
+Test acc: 0.8300
+Best test acc: 0.8300
+Epochs: 37 | Best epoch: 36
+Test acc: 0.7760
+Best test acc: 0.8300
+Epochs: 38 | Best epoch: 36
+Test acc: 0.8300
+Best test acc: 0.8300
+Epochs: 39 | Best epoch: 36
+Test acc: 0.8300
+Best test acc: 0.8300
+Epochs: 40 | Best epoch: 36
+Test acc: 0.8300
+Best test acc: 0.8300
+Epochs: 41 | Best epoch: 36
+Test acc: 0.4360
+Best test acc: 0.8300
+Epochs: 42 | Best epoch: 36
+Test acc: 0.2100
+Best test acc: 0.8300
+Epochs: 43 | Best epoch: 36
+Test acc: 0.2240
+Best test acc: 0.8300
+Epochs: 44 | Best epoch: 36
+Test acc: 0.4340
+Best test acc: 0.8300
+Epochs: 45 | Best epoch: 36
+Test acc: 0.2240
+Best test acc: 0.8300
+Epochs: 46 | Best epoch: 36
+Test acc: 0.2240
+Best test acc: 0.8300
+Epochs: 47 | Best epoch: 36
+Test acc: 0.6200
+Best test acc: 0.8300
+Epochs: 48 | Best epoch: 36
+Test acc: 0.7760
+Best test acc: 0.8300
+Epochs: 49 | Best epoch: 36
+Test acc: 0.7760
+Best test acc: 0.8300
+Epochs: 50 | Best epoch: 36
+Test acc: 0.8300
+Best test acc: 0.8300
+Epochs: 51 | Best epoch: 36
+Test acc: 0.3540
+Best test acc: 0.8300
+Epochs: 52 | Best epoch: 36
+Test acc: 0.4340
+Best test acc: 0.8300
+Epochs: 53 | Best epoch: 36
+Test acc: 0.4340
+Best test acc: 0.8300
+Epochs: 54 | Best epoch: 36
+Test acc: 0.5920
+Best test acc: 0.8300
+Epochs: 55 | Best epoch: 36
+Test acc: 0.6180
+Best test acc: 0.8300
+Epochs: 56 | Best epoch: 36
+Test acc: 0.6460
+Best test acc: 0.8300
+Perfect accuracy, stopping to save resources.
+flat_bundle on RING | SHA: 341943910046ece1606631d66411a24a51800705
+Test acc: 100.0000 +/- 0.0000 | Test loss: 100.0000

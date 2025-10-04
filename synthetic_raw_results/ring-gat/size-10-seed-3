@@ -1,0 +1,7 @@
+Namespace(epochs=100, lr=0.001, weight_decay=0.0005, early_stopping=100, stop_strategy='acc', min_acc=0.5, input_dim=5, hidden_dim=64, output_dim=5, norm='BatchNorm', input_dropout=0.0, dropout=0.0, use_act=True, activ='elu', reduce='sum', model='gat', mpnn_layers=5, dataset='RING', seed=3, bs=128, cuda=0, entity='none', add_crosses=False, synth_train_size=5000, synth_test_size=500, synthetic_size=10, generate_tree=False, arity=2, num_class=5, device=device(type='cuda', index=0), sha='341943910046ece1606631d66411a24a51800705', hidden_channels=64, num_layers=5)
+Epochs: 0 | Best epoch: 0
+Test acc: 0.1760
+Best test acc: 0.1760
+Perfect accuracy, stopping to save resources.
+gat on RING | SHA: 341943910046ece1606631d66411a24a51800705
+Test acc: 100.0000 +/- 0.0000 | Test loss: 100.0000

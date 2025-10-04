@@ -61,11 +61,11 @@ class SheafDiffusion(nn.Module):
              for _ in range(num_layers)]
         )
 
-        if norm == 'batch':
+        if norm == 'BatchNorm':
             self.norm = nn.ModuleList(
                 [nn.BatchNorm1d(hidden_channels * stalk_dimension) for _ in range(num_layers)]
             )
-        elif norm == 'layer':
+        elif norm == 'LayerNorm':
             self.norm = nn.ModuleList(
                 [nn.LayerNorm(hidden_channels * stalk_dimension) for _ in range(num_layers)]
             )

@@ -1,0 +1,43 @@
+Namespace(epochs=100, lr=0.001, weight_decay=0.0005, early_stopping=100, stop_strategy='acc', min_acc=0.5, input_dim=5, hidden_dim=64, output_dim=5, norm='BatchNorm', input_dropout=0.0, dropout=0.0, use_act=True, activ='elu', reduce='sum', model='gcn', mpnn_layers=8, dataset='RING', seed=3, bs=128, cuda=0, entity='none', add_crosses=False, synth_train_size=5000, synth_test_size=500, synthetic_size=16, generate_tree=False, arity=2, num_class=5, device=device(type='cuda', index=0), sha='341943910046ece1606631d66411a24a51800705', hidden_channels=64, num_layers=8)
+Epochs: 0 | Best epoch: 0
+Test acc: 0.2240
+Best test acc: 0.2240
+Epochs: 1 | Best epoch: 0
+Test acc: 0.2000
+Best test acc: 0.2240
+Epochs: 2 | Best epoch: 0
+Test acc: 0.1980
+Best test acc: 0.2240
+Epochs: 3 | Best epoch: 3
+Test acc: 0.4020
+Best test acc: 0.4020
+Epochs: 4 | Best epoch: 3
+Test acc: 0.1980
+Best test acc: 0.4020
+Epochs: 5 | Best epoch: 3
+Test acc: 0.2240
+Best test acc: 0.4020
+Epochs: 6 | Best epoch: 3
+Test acc: 0.2000
+Best test acc: 0.4020
+Epochs: 7 | Best epoch: 3
+Test acc: 0.1980
+Best test acc: 0.4020
+Epochs: 8 | Best epoch: 3
+Test acc: 0.2000
+Best test acc: 0.4020
+Epochs: 9 | Best epoch: 3
+Test acc: 0.3760
+Best test acc: 0.4020
+Epochs: 10 | Best epoch: 3
+Test acc: 0.2000
+Best test acc: 0.4020
+Epochs: 11 | Best epoch: 3
+Test acc: 0.2000
+Best test acc: 0.4020
+Epochs: 12 | Best epoch: 3
+Test acc: 0.3980
+Best test acc: 0.4020
+Perfect accuracy, stopping to save resources.
+gcn on RING | SHA: 341943910046ece1606631d66411a24a51800705
+Test acc: 100.0000 +/- 0.0000 | Test loss: 100.0000
